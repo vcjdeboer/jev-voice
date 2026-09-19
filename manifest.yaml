@@ -1,0 +1,23 @@
+manifestVersion: 1
+name: "@vcjdeboer/jev-voice"
+version: "2026.09.19.3"
+description: "Multi-dimensional writing voice profiler powered by Jev. Analyze any text across six dimensions — formality, authority, complexity, warmth, pace, conviction — with calibrated probabilities. Compare two texts side by side to see how their voices differ. No training data needed."
+repository: "https://github.com/vcjdeboer/jev-voice"
+labels:
+  - jev
+  - typesafe
+  - writing
+  - voice
+  - text-analysis
+  - content
+paths:
+  base: manifest
+models:
+  - jev_voice.ts
+reports:
+  - voice_comparison.ts
+additionalFiles:
+  - README.md
+  - LICENSE.md
+dependencies:
+  - "@swamp/typesafe-ai"
