@@ -84,9 +84,6 @@ All 60 profiles in a filterable table:
 
 ![Profiles table with scores, dominant labels, and text length](docs/profiles-table.jpg)
 
-See the [live report](https://claude.ai/artifact/LTerSUdzsGeYh7XNYbs8Tk) for
-the full interactive version with radar charts, heatmaps, and author filters.
-
 ## Use cases
 
 - **Pre-publish check**: Does your README sound right before you ship?
