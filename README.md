@@ -4,6 +4,8 @@ Multi-dimensional writing voice profiler powered by
 [Jev](https://typesafe.ai). Analyze any text — articles, READMEs, docs,
 papers, emails — across six voice dimensions with calibrated probabilities.
 
+![Voice profiles across 20 authors with per-author radar charts](docs/hero-radar.jpg)
+
 ## Dimensions
 
 | Dimension | Spectrum | What it measures |
@@ -70,6 +72,20 @@ steps:
         data.latest("voice", "profile-readme").attributes.warmth.score >= 2
       message: "README is too clinical — make it more engaging"
 ```
+
+## Report: rankings and distinctiveness
+
+The built-in voice-comparison report ranks articles per dimension and scores
+distinctiveness — euclidean distance from the fleet centroid.
+
+![Per-dimension leaderboards and top-10 most distinctive voices](docs/rankings.jpg)
+
+All 60 profiles in a filterable table:
+
+![Profiles table with scores, dominant labels, and text length](docs/profiles-table.jpg)
+
+See the [live report](https://claude.ai/artifact/LTerSUdzsGeYh7XNYbs8Tk) for
+the full interactive version with radar charts, heatmaps, and author filters.
 
 ## Use cases
 
